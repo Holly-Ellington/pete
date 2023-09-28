@@ -47,6 +47,7 @@ article div {
 
 p {
   line-height: 1.5;
+  
 }
 
 /* The div container constrains the content width within the main container to 600px */
@@ -64,6 +65,12 @@ img {
 hr {
   border: 1px solid black;
 }
+
+
+#pete-background {
+  text-align: left;
+}
+
 
 /* Add your solution below */
 
@@ -91,6 +98,8 @@ P {
 }
 
 ul {
-  text-align: center;
+  list-style-position: inside;
+  
 }
 
+}
