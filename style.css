@@ -8,55 +8,63 @@ body {
   padding: 40px;
 }
 
-/* Set the font family for any h1, h2, or h3 heading */
+/* TODO font family for any h1, h2, or h3 heading */
 h1,
-h4 {
+h2,
+h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
-  display:block;
-  font-weight: bold;
 }
 
-h3 {
-    text-align: center;
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
 }
 
-h4 {
-  text-align:center;
-
+nav a {
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 30px;
+  font-size: 18px;
+  color: #d62828;
 }
-h2 {
+nav a:hover {
+  color: #f77f00;
+}
 
-  display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    text-align:center;
+nav a:last-of-type {
+  margin-right: 20px;
 }
 
 article {
   padding: 50px 0;
 }
-
 article div {
   text-align: center;
   width: 100%;
 }
 
-p {
-  line-height: 1.5;
-  
+article div p {
+  text-align: left;
 }
 
-/* The div container constrains the content width within the main container to 600px */
+article div li {
+  line-height: 1.5;
+  text-align: left;
+}
+
+article div a {
+  color: #d62828
+}
+
+
+/* Update div container constrains the content width within the main container to 600px */
+
 div {
   margin: auto;
   width: 600px;
 }
-
 img {
   width: 100%;
   max-width: 200px;
@@ -67,40 +75,13 @@ hr {
   border: 1px solid black;
 }
 
-
-#pete-background {
-  text-align: left;
-}
-
-
-/* Add your solution below */
-
 .image-circle {
-   border-radius: 50%;
-   border: 2px solid #003049;
+  border: 2px solid #003049;
+  border-radius: 100px;
   
 }
 
-a {
-  color: #d62828;
-  transition: color 0.3s; /* Add a smooth color transition */
-}
-
-a:hover {
-  color: #f77f00;
-}
-
-nav {
-  text-align: center;
-}
-
-P {
-  text-align: center;
-}
-
-ul {
-  list-style-position: inside;
-  
-}
-
+footer {
+  text-decoration: none;
+   text-align: center;
 }
